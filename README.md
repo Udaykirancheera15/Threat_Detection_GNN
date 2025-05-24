@@ -171,6 +171,14 @@ Fine-tune the system by modifying configuration parameters in the scripts:
 - **GNS3 Integration**: Configure GNS3 connection parameters in `monitor_gns3.py`
 - **Threat Detection**: Adjust detection thresholds in `gnn_threat_detector.py`
 
+## 🛡️ Ethical Use & Disclaimer
+**Important**:  This project is designed for educational, research, and legitimate security testing purposes only. Users must:
+
+Only use on networks they own or have explicit permission to test
+Comply with all applicable laws and regulations
+Not use for malicious purposes or unauthorized network access
+Respect privacy and data protection requirements
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
