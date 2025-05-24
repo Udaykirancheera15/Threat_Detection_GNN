@@ -1,0 +1,290 @@
+2025-04-02 21:49:39,870 - gns3_simulation - INFO - Generating normal network traffic...
+2025-04-02 21:49:39,871 - gns3_simulation - INFO - Generating simulated network traffic for 600 seconds
+2025-04-02 21:49:39,871 - gns3_monitor - INFO - Connecting to GNS3 server at http://localhost:3080
+2025-04-02 21:49:39,891 - gns3_monitor - INFO - Successfully connected to GNS3 server. Found 4 projects.
+2025-04-02 21:49:39,892 - gns3_monitor - INFO - GNS3 Monitor initialized
+2025-04-02 21:49:39,893 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:49:39,893 - gns3_monitor - INFO - Started continuous monitoring (interval: 60s, duration: 30s)
+2025-04-02 21:49:39,893 - gns3_simulation - INFO - Collecting network traffic for 600 seconds...
+2025-04-02 21:49:39,894 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L32_20250402_214939.pcap
+2025-04-02 21:49:39,895 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L75_20250402_214939.pcap
+2025-04-02 21:49:39,896 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L87_20250402_214939.pcap
+2025-04-02 21:49:39,896 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:49:39,896 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:50:09,896 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L32_20250402_214939.pcap
+2025-04-02 21:50:09,909 - gns3_monitor - INFO - Sending capture simulated_capture_L32_20250402_214939.pcap to threat detection API
+2025-04-02 21:50:09,914 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87d5f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:50:09,914 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L32_20250402_214939.pcap
+2025-04-02 21:50:09,914 - gns3_monitor - INFO - Analysis result: Threat probability 0.08
+2025-04-02 21:50:09,914 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L75_20250402_214939.pcap
+2025-04-02 21:50:09,914 - gns3_monitor - INFO - Sending capture simulated_capture_L75_20250402_214939.pcap to threat detection API
+2025-04-02 21:50:09,916 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87d6850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:50:09,917 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L75_20250402_214939.pcap
+2025-04-02 21:50:09,917 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L75_20250402_214939.pcap with 0.74 probability!
+2025-04-02 21:50:09,917 - gns3_monitor - INFO - Analysis result: Threat probability 0.74
+2025-04-02 21:50:09,917 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L87_20250402_214939.pcap
+2025-04-02 21:50:09,917 - gns3_monitor - INFO - Sending capture simulated_capture_L87_20250402_214939.pcap to threat detection API
+2025-04-02 21:50:09,919 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee91635c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:50:09,919 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L87_20250402_214939.pcap
+2025-04-02 21:50:09,919 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L87_20250402_214939.pcap with 0.82 probability!
+2025-04-02 21:50:09,920 - gns3_monitor - INFO - Analysis result: Threat probability 0.82
+2025-04-02 21:50:09,920 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:51:09
+2025-04-02 21:50:39,923 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:50:39,925 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L46_20250402_215039.pcap
+2025-04-02 21:50:39,926 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L68_20250402_215039.pcap
+2025-04-02 21:50:39,927 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L94_20250402_215039.pcap
+2025-04-02 21:50:39,927 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:50:39,927 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:51:09,927 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L46_20250402_215039.pcap
+2025-04-02 21:51:09,928 - gns3_monitor - INFO - Sending capture simulated_capture_L46_20250402_215039.pcap to threat detection API
+2025-04-02 21:51:09,931 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee9163e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:51:09,932 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L46_20250402_215039.pcap
+2025-04-02 21:51:09,932 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L46_20250402_215039.pcap with 0.57 probability!
+2025-04-02 21:51:09,933 - gns3_monitor - INFO - Analysis result: Threat probability 0.57
+2025-04-02 21:51:09,933 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L68_20250402_215039.pcap
+2025-04-02 21:51:09,933 - gns3_monitor - INFO - Sending capture simulated_capture_L68_20250402_215039.pcap to threat detection API
+2025-04-02 21:51:09,935 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee879d7f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:51:09,935 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L68_20250402_215039.pcap
+2025-04-02 21:51:09,935 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L68_20250402_215039.pcap with 0.96 probability!
+2025-04-02 21:51:09,935 - gns3_monitor - INFO - Analysis result: Threat probability 0.96
+2025-04-02 21:51:09,935 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L94_20250402_215039.pcap
+2025-04-02 21:51:09,936 - gns3_monitor - INFO - Sending capture simulated_capture_L94_20250402_215039.pcap to threat detection API
+2025-04-02 21:51:09,937 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee9196580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:51:09,937 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L94_20250402_215039.pcap
+2025-04-02 21:51:09,937 - gns3_monitor - INFO - Analysis result: Threat probability 0.41
+2025-04-02 21:51:09,938 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:52:09
+2025-04-02 21:51:39,940 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:51:39,941 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L77_20250402_215139.pcap
+2025-04-02 21:51:39,942 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L16_20250402_215139.pcap
+2025-04-02 21:51:39,942 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L18_20250402_215139.pcap
+2025-04-02 21:51:39,943 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:51:39,943 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:52:09,943 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L77_20250402_215139.pcap
+2025-04-02 21:52:09,943 - gns3_monitor - INFO - Sending capture simulated_capture_L77_20250402_215139.pcap to threat detection API
+2025-04-02 21:52:09,944 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee9196e00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:52:09,944 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L77_20250402_215139.pcap
+2025-04-02 21:52:09,945 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L77_20250402_215139.pcap with 0.81 probability!
+2025-04-02 21:52:09,945 - gns3_monitor - INFO - Analysis result: Threat probability 0.81
+2025-04-02 21:52:09,945 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L16_20250402_215139.pcap
+2025-04-02 21:52:09,945 - gns3_monitor - INFO - Sending capture simulated_capture_L16_20250402_215139.pcap to threat detection API
+2025-04-02 21:52:09,956 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87de950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:52:09,956 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L16_20250402_215139.pcap
+2025-04-02 21:52:09,956 - gns3_monitor - INFO - Analysis result: Threat probability 0.03
+2025-04-02 21:52:09,957 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L18_20250402_215139.pcap
+2025-04-02 21:52:09,957 - gns3_monitor - INFO - Sending capture simulated_capture_L18_20250402_215139.pcap to threat detection API
+2025-04-02 21:52:09,957 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87de350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:52:09,957 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L18_20250402_215139.pcap
+2025-04-02 21:52:09,957 - gns3_monitor - INFO - Analysis result: Threat probability 0.23
+2025-04-02 21:52:09,958 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:53:09
+2025-04-02 21:52:39,960 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:52:39,961 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L52_20250402_215239.pcap
+2025-04-02 21:52:39,962 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L19_20250402_215239.pcap
+2025-04-02 21:52:39,962 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L64_20250402_215239.pcap
+2025-04-02 21:52:39,962 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:52:39,962 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:53:09,962 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L52_20250402_215239.pcap
+2025-04-02 21:53:09,963 - gns3_monitor - INFO - Sending capture simulated_capture_L52_20250402_215239.pcap to threat detection API
+2025-04-02 21:53:09,964 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87e24e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:53:09,964 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L52_20250402_215239.pcap
+2025-04-02 21:53:09,965 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L52_20250402_215239.pcap with 0.51 probability!
+2025-04-02 21:53:09,965 - gns3_monitor - INFO - Analysis result: Threat probability 0.51
+2025-04-02 21:53:09,965 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L19_20250402_215239.pcap
+2025-04-02 21:53:09,965 - gns3_monitor - INFO - Sending capture simulated_capture_L19_20250402_215239.pcap to threat detection API
+2025-04-02 21:53:09,966 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87e17c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:53:09,966 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L19_20250402_215239.pcap
+2025-04-02 21:53:09,973 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L19_20250402_215239.pcap with 0.81 probability!
+2025-04-02 21:53:09,973 - gns3_monitor - INFO - Analysis result: Threat probability 0.81
+2025-04-02 21:53:09,974 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L64_20250402_215239.pcap
+2025-04-02 21:53:09,974 - gns3_monitor - INFO - Sending capture simulated_capture_L64_20250402_215239.pcap to threat detection API
+2025-04-02 21:53:09,974 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87e1040>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:53:09,974 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L64_20250402_215239.pcap
+2025-04-02 21:53:09,975 - gns3_monitor - INFO - Analysis result: Threat probability 0.42
+2025-04-02 21:53:09,975 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:54:09
+2025-04-02 21:53:39,978 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:53:40,028 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L94_20250402_215340.pcap
+2025-04-02 21:53:40,029 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L71_20250402_215340.pcap
+2025-04-02 21:53:40,029 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L73_20250402_215340.pcap
+2025-04-02 21:53:40,029 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:53:40,029 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:54:10,029 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L94_20250402_215340.pcap
+2025-04-02 21:54:10,038 - gns3_monitor - INFO - Sending capture simulated_capture_L94_20250402_215340.pcap to threat detection API
+2025-04-02 21:54:10,040 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87e09b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:54:10,040 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L94_20250402_215340.pcap
+2025-04-02 21:54:10,040 - gns3_monitor - INFO - Analysis result: Threat probability 0.42
+2025-04-02 21:54:10,040 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L71_20250402_215340.pcap
+2025-04-02 21:54:10,040 - gns3_monitor - INFO - Sending capture simulated_capture_L71_20250402_215340.pcap to threat detection API
+2025-04-02 21:54:10,042 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87e0320>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:54:10,042 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L71_20250402_215340.pcap
+2025-04-02 21:54:10,042 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L71_20250402_215340.pcap with 0.90 probability!
+2025-04-02 21:54:10,043 - gns3_monitor - INFO - Analysis result: Threat probability 0.90
+2025-04-02 21:54:10,043 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L73_20250402_215340.pcap
+2025-04-02 21:54:10,043 - gns3_monitor - INFO - Sending capture simulated_capture_L73_20250402_215340.pcap to threat detection API
+2025-04-02 21:54:10,044 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87e35c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:54:10,044 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L73_20250402_215340.pcap
+2025-04-02 21:54:10,044 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L73_20250402_215340.pcap with 0.96 probability!
+2025-04-02 21:54:10,044 - gns3_monitor - INFO - Analysis result: Threat probability 0.96
+2025-04-02 21:54:10,044 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:55:10
+2025-04-02 21:54:40,047 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:54:40,048 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L74_20250402_215440.pcap
+2025-04-02 21:54:40,049 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L25_20250402_215440.pcap
+2025-04-02 21:54:40,049 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L82_20250402_215440.pcap
+2025-04-02 21:54:40,050 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:54:40,050 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:55:10,050 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L74_20250402_215440.pcap
+2025-04-02 21:55:10,050 - gns3_monitor - INFO - Sending capture simulated_capture_L74_20250402_215440.pcap to threat detection API
+2025-04-02 21:55:10,051 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87e3d40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:55:10,051 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L74_20250402_215440.pcap
+2025-04-02 21:55:10,051 - gns3_monitor - INFO - Analysis result: Threat probability 0.16
+2025-04-02 21:55:10,051 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L25_20250402_215440.pcap
+2025-04-02 21:55:10,051 - gns3_monitor - INFO - Sending capture simulated_capture_L25_20250402_215440.pcap to threat detection API
+2025-04-02 21:55:10,052 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880c500>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:55:10,052 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L25_20250402_215440.pcap
+2025-04-02 21:55:10,053 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L25_20250402_215440.pcap with 0.86 probability!
+2025-04-02 21:55:10,053 - gns3_monitor - INFO - Analysis result: Threat probability 0.86
+2025-04-02 21:55:10,053 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L82_20250402_215440.pcap
+2025-04-02 21:55:10,053 - gns3_monitor - INFO - Sending capture simulated_capture_L82_20250402_215440.pcap to threat detection API
+2025-04-02 21:55:10,054 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880cd70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:55:10,054 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L82_20250402_215440.pcap
+2025-04-02 21:55:10,062 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L82_20250402_215440.pcap with 0.53 probability!
+2025-04-02 21:55:10,062 - gns3_monitor - INFO - Analysis result: Threat probability 0.53
+2025-04-02 21:55:10,062 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:56:10
+2025-04-02 21:55:40,065 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:55:40,065 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L15_20250402_215540.pcap
+2025-04-02 21:55:40,066 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L10_20250402_215540.pcap
+2025-04-02 21:55:40,066 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L41_20250402_215540.pcap
+2025-04-02 21:55:40,066 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:55:40,066 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:56:10,067 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L15_20250402_215540.pcap
+2025-04-02 21:56:10,075 - gns3_monitor - INFO - Sending capture simulated_capture_L15_20250402_215540.pcap to threat detection API
+2025-04-02 21:56:10,077 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880d5e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:56:10,077 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L15_20250402_215540.pcap
+2025-04-02 21:56:10,077 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L15_20250402_215540.pcap with 0.70 probability!
+2025-04-02 21:56:10,077 - gns3_monitor - INFO - Analysis result: Threat probability 0.70
+2025-04-02 21:56:10,077 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L10_20250402_215540.pcap
+2025-04-02 21:56:10,077 - gns3_monitor - INFO - Sending capture simulated_capture_L10_20250402_215540.pcap to threat detection API
+2025-04-02 21:56:10,079 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880dd60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:56:10,079 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L10_20250402_215540.pcap
+2025-04-02 21:56:10,079 - gns3_monitor - INFO - Analysis result: Threat probability 0.17
+2025-04-02 21:56:10,079 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L41_20250402_215540.pcap
+2025-04-02 21:56:10,079 - gns3_monitor - INFO - Sending capture simulated_capture_L41_20250402_215540.pcap to threat detection API
+2025-04-02 21:56:10,081 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880e4e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:56:10,082 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L41_20250402_215540.pcap
+2025-04-02 21:56:10,082 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L41_20250402_215540.pcap with 0.73 probability!
+2025-04-02 21:56:10,082 - gns3_monitor - INFO - Analysis result: Threat probability 0.73
+2025-04-02 21:56:10,083 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:57:10
+2025-04-02 21:56:40,085 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:56:40,087 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L45_20250402_215640.pcap
+2025-04-02 21:56:40,087 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L29_20250402_215640.pcap
+2025-04-02 21:56:40,088 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L61_20250402_215640.pcap
+2025-04-02 21:56:40,088 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:56:40,088 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:57:10,088 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L45_20250402_215640.pcap
+2025-04-02 21:57:10,088 - gns3_monitor - INFO - Sending capture simulated_capture_L45_20250402_215640.pcap to threat detection API
+2025-04-02 21:57:10,089 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee87bbf20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:57:10,089 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L45_20250402_215640.pcap
+2025-04-02 21:57:10,090 - gns3_monitor - INFO - Analysis result: Threat probability 0.37
+2025-04-02 21:57:10,090 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L29_20250402_215640.pcap
+2025-04-02 21:57:10,090 - gns3_monitor - INFO - Sending capture simulated_capture_L29_20250402_215640.pcap to threat detection API
+2025-04-02 21:57:10,091 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880d9a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:57:10,091 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L29_20250402_215640.pcap
+2025-04-02 21:57:10,092 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L29_20250402_215640.pcap with 0.78 probability!
+2025-04-02 21:57:10,092 - gns3_monitor - INFO - Analysis result: Threat probability 0.78
+2025-04-02 21:57:10,092 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L61_20250402_215640.pcap
+2025-04-02 21:57:10,092 - gns3_monitor - INFO - Sending capture simulated_capture_L61_20250402_215640.pcap to threat detection API
+2025-04-02 21:57:10,092 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880d220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:57:10,093 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L61_20250402_215640.pcap
+2025-04-02 21:57:10,093 - gns3_monitor - INFO - Analysis result: Threat probability 0.05
+2025-04-02 21:57:10,093 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:58:10
+2025-04-02 21:57:40,095 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:57:40,096 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L33_20250402_215740.pcap
+2025-04-02 21:57:40,097 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L86_20250402_215740.pcap
+2025-04-02 21:57:40,097 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L18_20250402_215740.pcap
+2025-04-02 21:57:40,097 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:57:40,097 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:58:10,097 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L33_20250402_215740.pcap
+2025-04-02 21:58:10,098 - gns3_monitor - INFO - Sending capture simulated_capture_L33_20250402_215740.pcap to threat detection API
+2025-04-02 21:58:10,099 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880caa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:58:10,099 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L33_20250402_215740.pcap
+2025-04-02 21:58:10,099 - gns3_monitor - INFO - Analysis result: Threat probability 0.13
+2025-04-02 21:58:10,099 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L86_20250402_215740.pcap
+2025-04-02 21:58:10,099 - gns3_monitor - INFO - Sending capture simulated_capture_L86_20250402_215740.pcap to threat detection API
+2025-04-02 21:58:10,100 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880c320>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:58:10,100 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L86_20250402_215740.pcap
+2025-04-02 21:58:10,101 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L86_20250402_215740.pcap with 0.57 probability!
+2025-04-02 21:58:10,101 - gns3_monitor - INFO - Analysis result: Threat probability 0.57
+2025-04-02 21:58:10,101 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L18_20250402_215740.pcap
+2025-04-02 21:58:10,101 - gns3_monitor - INFO - Sending capture simulated_capture_L18_20250402_215740.pcap to threat detection API
+2025-04-02 21:58:10,102 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880ea80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:58:10,102 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L18_20250402_215740.pcap
+2025-04-02 21:58:10,102 - gns3_monitor - INFO - Analysis result: Threat probability 0.09
+2025-04-02 21:58:10,102 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 21:59:10
+2025-04-02 21:58:40,105 - gns3_monitor - INFO - Starting capture cycle
+2025-04-02 21:58:40,114 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L78_20250402_215840.pcap
+2025-04-02 21:58:40,115 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L23_20250402_215840.pcap
+2025-04-02 21:58:40,115 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L35_20250402_215840.pcap
+2025-04-02 21:58:40,115 - gns3_monitor - INFO - Started 3 captures
+2025-04-02 21:58:40,115 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-02 21:59:10,115 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L78_20250402_215840.pcap
+2025-04-02 21:59:10,116 - gns3_monitor - INFO - Sending capture simulated_capture_L78_20250402_215840.pcap to threat detection API
+2025-04-02 21:59:10,117 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880f200>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:59:10,117 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L78_20250402_215840.pcap
+2025-04-02 21:59:10,117 - gns3_monitor - INFO - Analysis result: Threat probability 0.26
+2025-04-02 21:59:10,117 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L23_20250402_215840.pcap
+2025-04-02 21:59:10,117 - gns3_monitor - INFO - Sending capture simulated_capture_L23_20250402_215840.pcap to threat detection API
+2025-04-02 21:59:10,118 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee880f980>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:59:10,118 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L23_20250402_215840.pcap
+2025-04-02 21:59:10,118 - gns3_monitor - INFO - Analysis result: Threat probability 0.45
+2025-04-02 21:59:10,118 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L35_20250402_215840.pcap
+2025-04-02 21:59:10,118 - gns3_monitor - INFO - Sending capture simulated_capture_L35_20250402_215840.pcap to threat detection API
+2025-04-02 21:59:10,119 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2ee8814140>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 21:59:10,119 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L35_20250402_215840.pcap
+2025-04-02 21:59:10,119 - gns3_monitor - INFO - Analysis result: Threat probability 0.45
+2025-04-02 21:59:10,119 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 22:00:10
+2025-04-02 21:59:39,894 - gns3_monitor - INFO - Stopping monitoring...
+2025-04-02 21:59:40,122 - gns3_monitor - INFO - Monitoring stopped
+2025-04-02 21:59:40,122 - gns3_simulation - INFO - Network traffic generation completed with 30 capture results
+2025-04-02 21:59:40,123 - gns3_simulation - INFO - Simulating network attacks...
+2025-04-02 21:59:40,123 - gns3_simulation - INFO - Simulating attacks: scan, dos, exploit
+2025-04-03 12:51:21,651 - gns3_simulation - INFO - Generating normal network traffic...
+2025-04-03 12:51:21,652 - gns3_simulation - INFO - Generating simulated network traffic for 300 seconds
+2025-04-03 12:51:21,653 - gns3_monitor - INFO - Loaded 15 historical alerts
+2025-04-03 12:51:21,653 - gns3_monitor - INFO - GNS3 Monitor initialized
+2025-04-03 12:51:21,654 - gns3_monitor - INFO - Starting capture cycle
+2025-04-03 12:51:21,654 - gns3_monitor - INFO - Started continuous monitoring (interval: 60s, duration: 30s)
+2025-04-03 12:51:21,654 - gns3_simulation - INFO - Collecting network traffic for 300 seconds...
+2025-04-03 12:51:21,655 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L25_20250403_125121.pcap
+2025-04-03 12:51:21,656 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L25_20250403_125121.pcap
+2025-04-03 12:51:21,657 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L100_20250403_125121.pcap
+2025-04-03 12:51:21,657 - gns3_monitor - INFO - Started 3 captures
+2025-04-03 12:51:21,657 - gns3_monitor - INFO - Capturing for 30 seconds...
+2025-04-03 12:51:51,686 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L25_20250403_125121.pcap
+2025-04-03 12:51:51,687 - gns3_monitor - INFO - Sending capture simulated_capture_L25_20250403_125121.pcap to threat detection API
+2025-04-03 12:51:51,704 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f807dd18f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-03 12:51:51,705 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L25_20250403_125121.pcap
+2025-04-03 12:51:51,706 - gns3_monitor - WARNING - THREAT DETECTED in simulated_capture_L25_20250403_125121.pcap with 0.73 probability!
+2025-04-03 12:51:51,706 - gns3_monitor - INFO - Analysis result: Threat probability 0.73
+2025-04-03 12:51:51,706 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L25_20250403_125121.pcap
+2025-04-03 12:51:51,706 - gns3_monitor - INFO - Sending capture simulated_capture_L25_20250403_125121.pcap to threat detection API
+2025-04-03 12:51:51,707 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f807dd19c60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-03 12:51:51,707 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L25_20250403_125121.pcap
+2025-04-03 12:51:51,707 - gns3_monitor - INFO - Analysis result: Threat probability 0.42
+2025-04-03 12:51:51,708 - gns3_monitor - INFO - Analyzing capture: simulated_capture_L100_20250403_125121.pcap
+2025-04-03 12:51:51,708 - gns3_monitor - INFO - Sending capture simulated_capture_L100_20250403_125121.pcap to threat detection API
+2025-04-03 12:51:51,709 - gns3_monitor - ERROR - Failed to analyze capture: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/detection/predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f807dd1a4d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-03 12:51:51,709 - gns3_monitor - INFO - Generating simulated analysis for simulated_capture_L100_20250403_125121.pcap
+2025-04-03 12:51:51,709 - gns3_monitor - INFO - Analysis result: Threat probability 0.29
+2025-04-03 12:51:51,710 - gns3_monitor - INFO - Capture cycle completed. Next capture scheduled at 12:52:51
+2025-04-03 13:06:45,466 - gns3_simulation - INFO - Generating normal network traffic...
+2025-04-03 13:06:45,466 - gns3_simulation - INFO - Generating simulated network traffic for 300 seconds
+2025-04-03 13:06:45,466 - gns3_monitor - INFO - Connecting to GNS3 server at http://localhost:3080
+2025-04-03 13:06:45,472 - gns3_monitor - ERROR - Failed to connect to GNS3 server: HTTPConnectionPool(host='localhost', port=3080): Max retries exceeded with url: /v2/projects (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3e4ad58580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-03 13:06:45,473 - gns3_monitor - INFO - Loaded 16 historical alerts
+2025-04-03 13:06:45,473 - gns3_monitor - INFO - GNS3 Monitor initialized
+2025-04-03 13:06:45,473 - gns3_monitor - INFO - Starting capture cycle
+2025-04-03 13:06:45,473 - gns3_monitor - INFO - Started continuous monitoring (interval: 60s, duration: 30s)
+2025-04-03 13:06:45,474 - gns3_simulation - INFO - Collecting network traffic for 300 seconds...
+2025-04-03 13:06:45,474 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L48_20250403_130645.pcap
+2025-04-03 13:06:45,475 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L78_20250403_130645.pcap
+2025-04-03 13:06:45,476 - gns3_monitor - INFO - Generated simulated capture: simulated_capture_L59_20250403_130645.pcap
+2025-04-03 13:06:45,476 - gns3_monitor - INFO - Started 3 captures
+2025-04-03 13:06:45,476 - gns3_monitor - INFO - Capturing for 30 seconds...

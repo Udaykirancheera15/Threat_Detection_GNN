@@ -1,0 +1,168 @@
+2025-04-03 12:28:54,233 - dynamic_gnn_training - INFO - Loading dataset from data/processed/processed_dataset_20250403_115213.pkl
+2025-04-03 12:28:54,235 - dynamic_gnn_training - INFO - Created data loaders: Train=19, Val=2, Test=5
+2025-04-03 12:28:54,235 - dynamic_gnn_training - INFO - Creating DynamicGNN model
+2025-04-03 12:28:54,279 - dynamic_gnn_training - INFO - Using device: cpu
+2025-04-03 12:28:54,281 - dynamic_gnn_training - INFO - Starting model training
+2025-04-03 12:28:54,281 - dynamic_gnn_training - INFO - Starting training for 15 epochs...
+2025-04-03 12:28:54,281 - dynamic_gnn_training - INFO - Epoch 1/15
+2025-04-03 12:40:19,627 - dynamic_gnn_training - INFO - Loading dataset from data/processed/processed_dataset_20250403_115213.pkl
+2025-04-03 12:40:19,628 - dynamic_gnn_training - INFO - Created data loaders: Train=19, Val=2, Test=5
+2025-04-03 12:40:19,628 - dynamic_gnn_training - INFO - Creating DynamicGNN model
+2025-04-03 12:40:19,671 - dynamic_gnn_training - INFO - Using device: cpu
+2025-04-03 12:40:19,673 - dynamic_gnn_training - INFO - Starting model training
+2025-04-03 12:40:19,673 - dynamic_gnn_training - INFO - Starting training for 15 epochs...
+2025-04-03 12:40:19,673 - dynamic_gnn_training - INFO - Epoch 1/15
+2025-04-03 12:43:27,875 - dynamic_gnn_training - INFO - Loading dataset from data/processed/processed_dataset_20250403_115213.pkl
+2025-04-03 12:43:27,876 - dynamic_gnn_training - INFO - Created data loaders: Train=19, Val=2, Test=5
+2025-04-03 12:43:27,876 - dynamic_gnn_training - INFO - Creating DynamicGNN model
+2025-04-03 12:43:27,921 - dynamic_gnn_training - INFO - Using device: cpu
+2025-04-03 12:43:27,922 - dynamic_gnn_training - INFO - Starting model training
+2025-04-03 12:43:27,922 - dynamic_gnn_training - INFO - Starting training for 15 epochs...
+2025-04-03 12:43:27,922 - dynamic_gnn_training - INFO - Epoch 1/15
+2025-04-03 12:45:33,227 - dynamic_gnn_training - INFO - Loading dataset from data/processed/processed_dataset_20250403_115213.pkl
+2025-04-03 12:45:33,228 - dynamic_gnn_training - INFO - Created data loaders: Train=19, Val=2, Test=5
+2025-04-03 12:45:33,228 - dynamic_gnn_training - INFO - Creating DynamicGNN model
+2025-04-03 12:45:33,272 - dynamic_gnn_training - INFO - Using device: cpu
+2025-04-03 12:45:33,274 - dynamic_gnn_training - INFO - Starting model training
+2025-04-03 12:45:33,274 - dynamic_gnn_training - INFO - Starting training for 15 epochs...
+2025-04-03 12:45:33,274 - dynamic_gnn_training - INFO - Epoch 1/15
+2025-04-03 12:46:47,682 - dynamic_gnn_training - INFO - Loading dataset from data/processed/processed_dataset_20250403_115213.pkl
+2025-04-03 12:46:47,683 - dynamic_gnn_training - INFO - Created data loaders: Train=19, Val=2, Test=5
+2025-04-03 12:46:47,683 - dynamic_gnn_training - INFO - Creating DynamicGNN model
+2025-04-03 12:46:47,723 - dynamic_gnn_training - INFO - Using device: cpu
+2025-04-03 12:46:47,724 - dynamic_gnn_training - INFO - Starting model training
+2025-04-03 12:46:47,724 - dynamic_gnn_training - INFO - Starting training for 15 epochs...
+2025-04-03 12:46:47,724 - dynamic_gnn_training - INFO - Epoch 1/15
+2025-04-03 12:48:44,287 - dynamic_gnn_training - INFO - Loading dataset from data/processed/processed_dataset_20250403_115213.pkl
+2025-04-03 12:48:44,288 - dynamic_gnn_training - INFO - Created data loaders: Train=19, Val=2, Test=5
+2025-04-03 12:48:44,288 - dynamic_gnn_training - INFO - Creating DynamicGNN model
+2025-04-03 12:48:44,331 - dynamic_gnn_training - INFO - Using device: cpu
+2025-04-03 12:48:44,332 - dynamic_gnn_training - INFO - Starting model training
+2025-04-03 12:48:44,332 - dynamic_gnn_training - INFO - Starting training for 15 epochs...
+2025-04-03 12:48:44,332 - dynamic_gnn_training - INFO - Epoch 1/15
+2025-04-03 12:48:44,513 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.6363 Acc: 80.00%
+2025-04-03 12:48:44,564 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.5710 Acc: 90.00%
+2025-04-03 12:48:44,615 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.5116 Acc: 93.33%
+2025-04-03 12:48:44,657 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.4701 Acc: 94.74%
+2025-04-03 12:48:44,669 - dynamic_gnn_training - INFO - Validation Loss: 0.2959 Acc: 100.00%
+2025-04-03 12:48:44,669 - dynamic_gnn_training - INFO - Validation loss improved from inf to 0.2959
+2025-04-03 12:48:44,673 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124844.pt
+2025-04-03 12:48:44,673 - dynamic_gnn_training - INFO - Epoch 2/15
+2025-04-03 12:48:44,724 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.2570 Acc: 100.00%
+2025-04-03 12:48:44,776 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.2307 Acc: 100.00%
+2025-04-03 12:48:44,827 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.2107 Acc: 100.00%
+2025-04-03 12:48:44,868 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.1971 Acc: 100.00%
+2025-04-03 12:48:44,880 - dynamic_gnn_training - INFO - Validation Loss: 0.1248 Acc: 100.00%
+2025-04-03 12:48:44,880 - dynamic_gnn_training - INFO - Validation loss improved from 0.2959 to 0.1248
+2025-04-03 12:48:44,884 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124844.pt
+2025-04-03 12:48:44,884 - dynamic_gnn_training - INFO - Epoch 3/15
+2025-04-03 12:48:44,935 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.1273 Acc: 100.00%
+2025-04-03 12:48:44,987 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.1133 Acc: 100.00%
+2025-04-03 12:48:45,038 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.1049 Acc: 100.00%
+2025-04-03 12:48:45,079 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0989 Acc: 100.00%
+2025-04-03 12:48:45,091 - dynamic_gnn_training - INFO - Validation Loss: 0.0438 Acc: 100.00%
+2025-04-03 12:48:45,091 - dynamic_gnn_training - INFO - Validation loss improved from 0.1248 to 0.0438
+2025-04-03 12:48:45,095 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124845.pt
+2025-04-03 12:48:45,095 - dynamic_gnn_training - INFO - Epoch 4/15
+2025-04-03 12:48:45,146 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0675 Acc: 100.00%
+2025-04-03 12:48:45,199 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0648 Acc: 100.00%
+2025-04-03 12:48:45,251 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0623 Acc: 100.00%
+2025-04-03 12:48:45,292 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0594 Acc: 100.00%
+2025-04-03 12:48:45,304 - dynamic_gnn_training - INFO - Validation Loss: 0.0398 Acc: 100.00%
+2025-04-03 12:48:45,304 - dynamic_gnn_training - INFO - Validation loss improved from 0.0438 to 0.0398
+2025-04-03 12:48:45,308 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124845.pt
+2025-04-03 12:48:45,308 - dynamic_gnn_training - INFO - Epoch 5/15
+2025-04-03 12:48:45,360 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0443 Acc: 100.00%
+2025-04-03 12:48:45,412 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0422 Acc: 100.00%
+2025-04-03 12:48:45,463 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0405 Acc: 100.00%
+2025-04-03 12:48:45,504 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0393 Acc: 100.00%
+2025-04-03 12:48:45,516 - dynamic_gnn_training - INFO - Validation Loss: 0.0241 Acc: 100.00%
+2025-04-03 12:48:45,516 - dynamic_gnn_training - INFO - Validation loss improved from 0.0398 to 0.0241
+2025-04-03 12:48:45,520 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124845.pt
+2025-04-03 12:48:45,523 - dynamic_gnn_training - INFO - Saved checkpoint to ./models/checkpoints/DynamicGNN_20250403_124845.pt
+2025-04-03 12:48:45,523 - dynamic_gnn_training - INFO - Epoch 6/15
+2025-04-03 12:48:45,576 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0334 Acc: 100.00%
+2025-04-03 12:48:45,628 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0323 Acc: 100.00%
+2025-04-03 12:48:45,679 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0310 Acc: 100.00%
+2025-04-03 12:48:45,720 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0302 Acc: 100.00%
+2025-04-03 12:48:45,732 - dynamic_gnn_training - INFO - Validation Loss: 0.0167 Acc: 100.00%
+2025-04-03 12:48:45,732 - dynamic_gnn_training - INFO - Validation loss improved from 0.0241 to 0.0167
+2025-04-03 12:48:45,736 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124845.pt
+2025-04-03 12:48:45,736 - dynamic_gnn_training - INFO - Epoch 7/15
+2025-04-03 12:48:45,788 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0240 Acc: 100.00%
+2025-04-03 12:48:45,839 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0236 Acc: 100.00%
+2025-04-03 12:48:45,891 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0233 Acc: 100.00%
+2025-04-03 12:48:45,932 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0223 Acc: 100.00%
+2025-04-03 12:48:45,944 - dynamic_gnn_training - INFO - Validation Loss: 0.0131 Acc: 100.00%
+2025-04-03 12:48:45,944 - dynamic_gnn_training - INFO - Validation loss improved from 0.0167 to 0.0131
+2025-04-03 12:48:45,948 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124845.pt
+2025-04-03 12:48:45,948 - dynamic_gnn_training - INFO - Epoch 8/15
+2025-04-03 12:48:46,000 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0198 Acc: 100.00%
+2025-04-03 12:48:46,051 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0195 Acc: 100.00%
+2025-04-03 12:48:46,102 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0195 Acc: 100.00%
+2025-04-03 12:48:46,143 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0189 Acc: 100.00%
+2025-04-03 12:48:46,155 - dynamic_gnn_training - INFO - Validation Loss: 0.0137 Acc: 100.00%
+2025-04-03 12:48:46,155 - dynamic_gnn_training - INFO - No improvement in validation loss for 1 epochs
+2025-04-03 12:48:46,155 - dynamic_gnn_training - INFO - Epoch 9/15
+2025-04-03 12:48:46,207 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0162 Acc: 100.00%
+2025-04-03 12:48:46,260 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0160 Acc: 100.00%
+2025-04-03 12:48:46,314 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0155 Acc: 100.00%
+2025-04-03 12:48:46,357 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0155 Acc: 100.00%
+2025-04-03 12:48:46,369 - dynamic_gnn_training - INFO - Validation Loss: 0.0119 Acc: 100.00%
+2025-04-03 12:48:46,369 - dynamic_gnn_training - INFO - Validation loss improved from 0.0131 to 0.0119
+2025-04-03 12:48:46,373 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124846.pt
+2025-04-03 12:48:46,373 - dynamic_gnn_training - INFO - Epoch 10/15
+2025-04-03 12:48:46,426 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0135 Acc: 100.00%
+2025-04-03 12:48:46,477 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0132 Acc: 100.00%
+2025-04-03 12:48:46,529 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0133 Acc: 100.00%
+2025-04-03 12:48:46,570 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0131 Acc: 100.00%
+2025-04-03 12:48:46,583 - dynamic_gnn_training - INFO - Validation Loss: 0.0083 Acc: 100.00%
+2025-04-03 12:48:46,583 - dynamic_gnn_training - INFO - Validation loss improved from 0.0119 to 0.0083
+2025-04-03 12:48:46,587 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124846.pt
+2025-04-03 12:48:46,590 - dynamic_gnn_training - INFO - Saved checkpoint to ./models/checkpoints/DynamicGNN_20250403_124846.pt
+2025-04-03 12:48:46,590 - dynamic_gnn_training - INFO - Epoch 11/15
+2025-04-03 12:48:46,643 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0128 Acc: 100.00%
+2025-04-03 12:48:46,695 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0122 Acc: 100.00%
+2025-04-03 12:48:46,747 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0118 Acc: 100.00%
+2025-04-03 12:48:46,788 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0117 Acc: 100.00%
+2025-04-03 12:48:46,801 - dynamic_gnn_training - INFO - Validation Loss: 0.0103 Acc: 100.00%
+2025-04-03 12:48:46,801 - dynamic_gnn_training - INFO - No improvement in validation loss for 1 epochs
+2025-04-03 12:48:46,801 - dynamic_gnn_training - INFO - Epoch 12/15
+2025-04-03 12:48:46,852 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0097 Acc: 100.00%
+2025-04-03 12:48:46,904 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0095 Acc: 100.00%
+2025-04-03 12:48:46,955 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0095 Acc: 100.00%
+2025-04-03 12:48:46,996 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0095 Acc: 100.00%
+2025-04-03 12:48:47,008 - dynamic_gnn_training - INFO - Validation Loss: 0.0014 Acc: 100.00%
+2025-04-03 12:48:47,008 - dynamic_gnn_training - INFO - Validation loss improved from 0.0083 to 0.0014
+2025-04-03 12:48:47,012 - dynamic_gnn_training - INFO - Saved best checkpoint to ./models/checkpoints/best_DynamicGNN_20250403_124847.pt
+2025-04-03 12:48:47,012 - dynamic_gnn_training - INFO - Epoch 13/15
+2025-04-03 12:48:47,064 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0090 Acc: 100.00%
+2025-04-03 12:48:47,116 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0090 Acc: 100.00%
+2025-04-03 12:48:47,167 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0088 Acc: 100.00%
+2025-04-03 12:48:47,213 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0085 Acc: 100.00%
+2025-04-03 12:48:47,230 - dynamic_gnn_training - INFO - Validation Loss: 0.0060 Acc: 100.00%
+2025-04-03 12:48:47,230 - dynamic_gnn_training - INFO - No improvement in validation loss for 1 epochs
+2025-04-03 12:48:47,230 - dynamic_gnn_training - INFO - Epoch 14/15
+2025-04-03 12:48:47,287 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0075 Acc: 100.00%
+2025-04-03 12:48:47,341 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0076 Acc: 100.00%
+2025-04-03 12:48:47,395 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0077 Acc: 100.00%
+2025-04-03 12:48:47,438 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0077 Acc: 100.00%
+2025-04-03 12:48:47,452 - dynamic_gnn_training - INFO - Validation Loss: 0.0032 Acc: 100.00%
+2025-04-03 12:48:47,452 - dynamic_gnn_training - INFO - No improvement in validation loss for 2 epochs
+2025-04-03 12:48:47,453 - dynamic_gnn_training - INFO - Epoch 15/15
+2025-04-03 12:48:47,507 - dynamic_gnn_training - INFO - Train Epoch: 5/19 Loss: 0.0072 Acc: 100.00%
+2025-04-03 12:48:47,561 - dynamic_gnn_training - INFO - Train Epoch: 10/19 Loss: 0.0068 Acc: 100.00%
+2025-04-03 12:48:47,616 - dynamic_gnn_training - INFO - Train Epoch: 15/19 Loss: 0.0066 Acc: 100.00%
+2025-04-03 12:48:47,660 - dynamic_gnn_training - INFO - Train Epoch: 19/19 Loss: 0.0066 Acc: 100.00%
+2025-04-03 12:48:47,673 - dynamic_gnn_training - INFO - Validation Loss: 0.0032 Acc: 100.00%
+2025-04-03 12:48:47,673 - dynamic_gnn_training - INFO - No improvement in validation loss for 3 epochs
+2025-04-03 12:48:47,677 - dynamic_gnn_training - INFO - Saved checkpoint to ./models/checkpoints/DynamicGNN_20250403_124847.pt
+2025-04-03 12:48:47,678 - dynamic_gnn_training - INFO - Loaded best model based on validation loss
+2025-04-03 12:48:47,678 - dynamic_gnn_training - INFO - Training completed in 3.35 seconds
+2025-04-03 12:48:47,678 - dynamic_gnn_training - INFO - Evaluating model on test set
+2025-04-03 12:48:48,501 - dynamic_gnn_training - INFO - Test Loss: 0.0033 Acc: 100.00%
+2025-04-03 12:48:48,501 - dynamic_gnn_training - INFO - Precision: 0.0000 Recall: 0.0000 F1: 0.0000
+2025-04-03 12:48:48,501 - dynamic_gnn_training - INFO - Confusion Matrix: 
+[[5]]
+2025-04-03 12:48:48,501 - dynamic_gnn_training - INFO - ROC AUC: nan
+2025-04-03 12:48:48,502 - dynamic_gnn_training - INFO - Results saved to ./models/results_DynamicGNN_20250403_124848.json

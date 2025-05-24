@@ -1,0 +1,388 @@
+{
+  "alerts": [
+    {
+      "timestamp": "2025-04-02T21:50:09.917138",
+      "message": "THREAT DETECTED in simulated_capture_L75_20250402_214939.pcap with 0.74 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.2622798217745642,
+          0.7377201782254358
+        ],
+        "timestamp": "2025-04-02T21:50:09.917122",
+        "capture_info": {
+          "capture_id": "Ca1b2bedb",
+          "link_id": "L75",
+          "filename": "simulated_capture_L75_20250402_214939.pcap",
+          "start_time": "2025-04-02T21:44:39.895339",
+          "stop_time": "2025-04-02T21:49:39.895350",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L75_20250402_214939.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:50:09.919648",
+      "message": "THREAT DETECTED in simulated_capture_L87_20250402_214939.pcap with 0.82 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.17518567157963794,
+          0.8248143284203621
+        ],
+        "timestamp": "2025-04-02T21:50:09.919635",
+        "capture_info": {
+          "capture_id": "C6b76d72e",
+          "link_id": "L87",
+          "filename": "simulated_capture_L87_20250402_214939.pcap",
+          "start_time": "2025-04-02T21:44:39.896207",
+          "stop_time": "2025-04-02T21:49:39.896216",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L87_20250402_214939.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:51:09.932323",
+      "message": "THREAT DETECTED in simulated_capture_L46_20250402_215039.pcap with 0.57 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.4289108560122361,
+          0.5710891439877639
+        ],
+        "timestamp": "2025-04-02T21:51:09.932266",
+        "capture_info": {
+          "capture_id": "Cf00670fb",
+          "link_id": "L46",
+          "filename": "simulated_capture_L46_20250402_215039.pcap",
+          "start_time": "2025-04-02T21:45:39.925405",
+          "stop_time": "2025-04-02T21:50:39.925427",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L46_20250402_215039.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:51:09.935339",
+      "message": "THREAT DETECTED in simulated_capture_L68_20250402_215039.pcap with 0.96 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.038136710976970245,
+          0.9618632890230298
+        ],
+        "timestamp": "2025-04-02T21:51:09.935327",
+        "capture_info": {
+          "capture_id": "C711f0093",
+          "link_id": "L68",
+          "filename": "simulated_capture_L68_20250402_215039.pcap",
+          "start_time": "2025-04-02T21:45:39.926414",
+          "stop_time": "2025-04-02T21:50:39.926424",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L68_20250402_215039.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:52:09.944935",
+      "message": "THREAT DETECTED in simulated_capture_L77_20250402_215139.pcap with 0.81 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.18725257176247212,
+          0.8127474282375279
+        ],
+        "timestamp": "2025-04-02T21:52:09.944924",
+        "capture_info": {
+          "capture_id": "Cc3e861b6",
+          "link_id": "L77",
+          "filename": "simulated_capture_L77_20250402_215139.pcap",
+          "start_time": "2025-04-02T21:46:39.941892",
+          "stop_time": "2025-04-02T21:51:39.941907",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L77_20250402_215139.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:53:09.964548",
+      "message": "THREAT DETECTED in simulated_capture_L52_20250402_215239.pcap with 0.51 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.4884834820674544,
+          0.5115165179325456
+        ],
+        "timestamp": "2025-04-02T21:53:09.964537",
+        "capture_info": {
+          "capture_id": "C0381cd28",
+          "link_id": "L52",
+          "filename": "simulated_capture_L52_20250402_215239.pcap",
+          "start_time": "2025-04-02T21:47:39.961762",
+          "stop_time": "2025-04-02T21:52:39.961771",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L52_20250402_215239.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:53:09.966332",
+      "message": "THREAT DETECTED in simulated_capture_L19_20250402_215239.pcap with 0.81 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.1932535604591662,
+          0.8067464395408338
+        ],
+        "timestamp": "2025-04-02T21:53:09.966326",
+        "capture_info": {
+          "capture_id": "C5149c98d",
+          "link_id": "L19",
+          "filename": "simulated_capture_L19_20250402_215239.pcap",
+          "start_time": "2025-04-02T21:47:39.962229",
+          "stop_time": "2025-04-02T21:52:39.962234",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L19_20250402_215239.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:54:10.042215",
+      "message": "THREAT DETECTED in simulated_capture_L71_20250402_215340.pcap with 0.90 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.0951287745017736,
+          0.9048712254982264
+        ],
+        "timestamp": "2025-04-02T21:54:10.042209",
+        "capture_info": {
+          "capture_id": "Cbe9525e1",
+          "link_id": "L71",
+          "filename": "simulated_capture_L71_20250402_215340.pcap",
+          "start_time": "2025-04-02T21:48:40.029198",
+          "stop_time": "2025-04-02T21:53:40.029202",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L71_20250402_215340.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:54:10.044354",
+      "message": "THREAT DETECTED in simulated_capture_L73_20250402_215340.pcap with 0.96 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.035065142472838096,
+          0.9649348575271619
+        ],
+        "timestamp": "2025-04-02T21:54:10.044346",
+        "capture_info": {
+          "capture_id": "C4a9328fc",
+          "link_id": "L73",
+          "filename": "simulated_capture_L73_20250402_215340.pcap",
+          "start_time": "2025-04-02T21:48:40.029571",
+          "stop_time": "2025-04-02T21:53:40.029575",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L73_20250402_215340.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:55:10.052784",
+      "message": "THREAT DETECTED in simulated_capture_L25_20250402_215440.pcap with 0.86 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.14077815633344526,
+          0.8592218436665547
+        ],
+        "timestamp": "2025-04-02T21:55:10.052779",
+        "capture_info": {
+          "capture_id": "C746aba31",
+          "link_id": "L25",
+          "filename": "simulated_capture_L25_20250402_215440.pcap",
+          "start_time": "2025-04-02T21:49:40.049306",
+          "stop_time": "2025-04-02T21:54:40.049314",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L25_20250402_215440.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:55:10.054512",
+      "message": "THREAT DETECTED in simulated_capture_L82_20250402_215440.pcap with 0.53 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.47315372557755664,
+          0.5268462744224434
+        ],
+        "timestamp": "2025-04-02T21:55:10.054505",
+        "capture_info": {
+          "capture_id": "Cf027e2f2",
+          "link_id": "L82",
+          "filename": "simulated_capture_L82_20250402_215440.pcap",
+          "start_time": "2025-04-02T21:49:40.049922",
+          "stop_time": "2025-04-02T21:54:40.049931",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L82_20250402_215440.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:56:10.077256",
+      "message": "THREAT DETECTED in simulated_capture_L15_20250402_215540.pcap with 0.70 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.296863203806523,
+          0.703136796193477
+        ],
+        "timestamp": "2025-04-02T21:56:10.077245",
+        "capture_info": {
+          "capture_id": "C7a39cb22",
+          "link_id": "L15",
+          "filename": "simulated_capture_L15_20250402_215540.pcap",
+          "start_time": "2025-04-02T21:50:40.065859",
+          "stop_time": "2025-04-02T21:55:40.065867",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L15_20250402_215540.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:56:10.082158",
+      "message": "THREAT DETECTED in simulated_capture_L41_20250402_215540.pcap with 0.73 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.27363283328254473,
+          0.7263671667174553
+        ],
+        "timestamp": "2025-04-02T21:56:10.082141",
+        "capture_info": {
+          "capture_id": "C56da564c",
+          "link_id": "L41",
+          "filename": "simulated_capture_L41_20250402_215540.pcap",
+          "start_time": "2025-04-02T21:50:40.066839",
+          "stop_time": "2025-04-02T21:55:40.066843",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L41_20250402_215540.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:57:10.091374",
+      "message": "THREAT DETECTED in simulated_capture_L29_20250402_215640.pcap with 0.78 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.21878957093622697,
+          0.781210429063773
+        ],
+        "timestamp": "2025-04-02T21:57:10.091364",
+        "capture_info": {
+          "capture_id": "Cee68e3e6",
+          "link_id": "L29",
+          "filename": "simulated_capture_L29_20250402_215640.pcap",
+          "start_time": "2025-04-02T21:51:40.087570",
+          "stop_time": "2025-04-02T21:56:40.087575",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L29_20250402_215640.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-02T21:58:10.100605",
+      "message": "THREAT DETECTED in simulated_capture_L86_20250402_215740.pcap with 0.57 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.42985011799234796,
+          0.570149882007652
+        ],
+        "timestamp": "2025-04-02T21:58:10.100598",
+        "capture_info": {
+          "capture_id": "C37c8b4d4",
+          "link_id": "L86",
+          "filename": "simulated_capture_L86_20250402_215740.pcap",
+          "start_time": "2025-04-02T21:52:40.097194",
+          "stop_time": "2025-04-02T21:57:40.097201",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L86_20250402_215740.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    },
+    {
+      "timestamp": "2025-04-03T12:51:51.705204",
+      "message": "THREAT DETECTED in simulated_capture_L25_20250403_125121.pcap with 0.73 probability!",
+      "result": {
+        "predicted_class": 1,
+        "probabilities": [
+          0.2653984629703665,
+          0.7346015370296335
+        ],
+        "timestamp": "2025-04-03T12:51:51.705168",
+        "capture_info": {
+          "capture_id": "Ce602e886",
+          "link_id": "L25",
+          "filename": "simulated_capture_L25_20250403_125121.pcap",
+          "start_time": "2025-04-03T12:46:21.655350",
+          "stop_time": "2025-04-03T12:51:21.655366",
+          "filepath": "data/gns3_simulation/captures/simulated_capture_L25_20250403_125121.pcap",
+          "status": "stopped",
+          "simulated": true
+        },
+        "simulated": true
+      },
+      "acknowledged": false
+    }
+  ]
+}

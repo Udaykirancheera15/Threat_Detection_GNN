@@ -1,0 +1,195 @@
+2025-04-03 11:52:07,741 - data_preprocessing - INFO - Collecting capture files from data/gns3_simulation/captures
+2025-04-03 11:52:07,744 - data_preprocessing - INFO - Found 30 capture files
+2025-04-03 11:52:07,744 - data_preprocessing - INFO - Attack samples: 0
+2025-04-03 11:52:07,744 - data_preprocessing - INFO - Normal samples: 30
+2025-04-03 11:52:07,744 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L32_20250402_214939.pcap
+2025-04-03 11:52:07,744 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L32_20250402_214939.pcap
+2025-04-03 11:52:08,087 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L32_20250402_214939.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:08,087 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:08,087 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:08,091 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:08,103 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L75_20250402_214939.pcap
+2025-04-03 11:52:08,103 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L75_20250402_214939.pcap
+2025-04-03 11:52:08,285 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L75_20250402_214939.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:08,285 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:08,285 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:08,288 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:08,299 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L87_20250402_214939.pcap
+2025-04-03 11:52:08,299 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L87_20250402_214939.pcap
+2025-04-03 11:52:08,481 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L87_20250402_214939.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:08,481 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:08,481 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:08,485 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:08,496 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L46_20250402_215039.pcap
+2025-04-03 11:52:08,496 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L46_20250402_215039.pcap
+2025-04-03 11:52:08,676 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L46_20250402_215039.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:08,676 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:08,676 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:08,679 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:08,690 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L68_20250402_215039.pcap
+2025-04-03 11:52:08,691 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L68_20250402_215039.pcap
+2025-04-03 11:52:08,876 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L68_20250402_215039.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:08,876 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:08,876 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:08,879 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:08,890 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L94_20250402_215039.pcap
+2025-04-03 11:52:08,890 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L94_20250402_215039.pcap
+2025-04-03 11:52:09,073 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L94_20250402_215039.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:09,074 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:09,074 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:09,077 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:09,088 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L77_20250402_215139.pcap
+2025-04-03 11:52:09,088 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L77_20250402_215139.pcap
+2025-04-03 11:52:09,269 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L77_20250402_215139.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:09,269 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:09,269 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:09,271 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:09,283 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L16_20250402_215139.pcap
+2025-04-03 11:52:09,283 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L16_20250402_215139.pcap
+2025-04-03 11:52:09,465 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L16_20250402_215139.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:09,465 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:09,465 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:09,468 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:09,479 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L18_20250402_215139.pcap
+2025-04-03 11:52:09,480 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L18_20250402_215139.pcap
+2025-04-03 11:52:09,667 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L18_20250402_215139.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:09,667 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:09,667 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:09,670 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:09,681 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L52_20250402_215239.pcap
+2025-04-03 11:52:09,681 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L52_20250402_215239.pcap
+2025-04-03 11:52:09,867 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L52_20250402_215239.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:09,867 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:09,867 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:09,870 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:09,882 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L19_20250402_215239.pcap
+2025-04-03 11:52:09,882 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L19_20250402_215239.pcap
+2025-04-03 11:52:10,066 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L19_20250402_215239.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:10,066 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:10,067 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:10,069 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:10,080 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L64_20250402_215239.pcap
+2025-04-03 11:52:10,081 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L64_20250402_215239.pcap
+2025-04-03 11:52:10,266 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L64_20250402_215239.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:10,266 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:10,266 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:10,269 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:10,280 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L94_20250402_215340.pcap
+2025-04-03 11:52:10,280 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L94_20250402_215340.pcap
+2025-04-03 11:52:10,466 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L94_20250402_215340.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:10,467 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:10,467 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:10,469 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:10,481 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L71_20250402_215340.pcap
+2025-04-03 11:52:10,481 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L71_20250402_215340.pcap
+2025-04-03 11:52:10,664 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L71_20250402_215340.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:10,664 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:10,664 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:10,667 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:10,678 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L73_20250402_215340.pcap
+2025-04-03 11:52:10,678 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L73_20250402_215340.pcap
+2025-04-03 11:52:10,865 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L73_20250402_215340.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:10,865 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:10,866 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:10,868 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:10,880 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L74_20250402_215440.pcap
+2025-04-03 11:52:10,880 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L74_20250402_215440.pcap
+2025-04-03 11:52:11,065 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L74_20250402_215440.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:11,065 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:11,065 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:11,068 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:11,078 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L25_20250402_215440.pcap
+2025-04-03 11:52:11,079 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L25_20250402_215440.pcap
+2025-04-03 11:52:11,267 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L25_20250402_215440.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:11,267 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:11,267 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:11,270 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:11,281 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L82_20250402_215440.pcap
+2025-04-03 11:52:11,281 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L82_20250402_215440.pcap
+2025-04-03 11:52:11,466 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L82_20250402_215440.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:11,467 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:11,467 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:11,470 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:11,481 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L15_20250402_215540.pcap
+2025-04-03 11:52:11,481 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L15_20250402_215540.pcap
+2025-04-03 11:52:11,668 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L15_20250402_215540.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:11,668 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:11,668 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:11,671 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:11,682 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L10_20250402_215540.pcap
+2025-04-03 11:52:11,682 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L10_20250402_215540.pcap
+2025-04-03 11:52:11,870 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L10_20250402_215540.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:11,870 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:11,871 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:11,873 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:11,885 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L41_20250402_215540.pcap
+2025-04-03 11:52:11,885 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L41_20250402_215540.pcap
+2025-04-03 11:52:12,070 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L41_20250402_215540.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:12,070 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:12,070 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:12,073 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:12,084 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L45_20250402_215640.pcap
+2025-04-03 11:52:12,084 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L45_20250402_215640.pcap
+2025-04-03 11:52:12,269 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L45_20250402_215640.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:12,269 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:12,269 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:12,272 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:12,283 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L29_20250402_215640.pcap
+2025-04-03 11:52:12,283 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L29_20250402_215640.pcap
+2025-04-03 11:52:12,470 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L29_20250402_215640.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:12,470 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:12,470 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:12,473 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:12,484 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L61_20250402_215640.pcap
+2025-04-03 11:52:12,484 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L61_20250402_215640.pcap
+2025-04-03 11:52:12,663 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L61_20250402_215640.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:12,663 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:12,663 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:12,666 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:12,679 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L33_20250402_215740.pcap
+2025-04-03 11:52:12,679 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L33_20250402_215740.pcap
+2025-04-03 11:52:12,863 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L33_20250402_215740.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:12,864 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:12,864 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:12,866 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:12,878 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L86_20250402_215740.pcap
+2025-04-03 11:52:12,878 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L86_20250402_215740.pcap
+2025-04-03 11:52:13,063 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L86_20250402_215740.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:13,063 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:13,063 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:13,065 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:13,077 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L18_20250402_215740.pcap
+2025-04-03 11:52:13,077 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L18_20250402_215740.pcap
+2025-04-03 11:52:13,263 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L18_20250402_215740.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:13,263 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:13,263 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:13,266 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:13,277 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L78_20250402_215840.pcap
+2025-04-03 11:52:13,278 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L78_20250402_215840.pcap
+2025-04-03 11:52:13,468 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L78_20250402_215840.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:13,468 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:13,468 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:13,471 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:13,483 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L23_20250402_215840.pcap
+2025-04-03 11:52:13,483 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L23_20250402_215840.pcap
+2025-04-03 11:52:13,659 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L23_20250402_215840.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:13,659 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:13,659 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:13,662 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:13,673 - data_preprocessing - INFO - Processing capture file: data/gns3_simulation/captures/simulated_capture_L35_20250402_215840.pcap
+2025-04-03 11:52:13,674 - dynamic_gnn - INFO - Ingesting network flow data from data/gns3_simulation/captures/simulated_capture_L35_20250402_215840.pcap
+2025-04-03 11:52:13,861 - dynamic_gnn - ERROR - Failed to convert PCAP to CSV: Command '['tshark', '-r', 'data/gns3_simulation/captures/simulated_capture_L35_20250402_215840.pcap', '-T', 'fields', '-e', 'frame.time', '-e', 'ip.src', '-e', 'ip.dst', '-e', 'tcp.srcport', '-e', 'tcp.dstport', '-e', 'udp.srcport', '-e', 'udp.dstport', '-e', 'ip.proto', '-e', 'frame.len', '-E', 'header=y', '-E', 'separator=,', '-o', 'tcp.desegment_tcp_streams:TRUE', '-o', 'ip.defragment:TRUE', '-o', 'udp.check_checksum:FALSE']' returned non-zero exit status 3.
+2025-04-03 11:52:13,861 - dynamic_gnn - INFO - Generating simulated network flow data instead.
+2025-04-03 11:52:13,861 - dynamic_gnn - INFO - Generating 50 simulated network flows
+2025-04-03 11:52:13,864 - dynamic_gnn - INFO - Encoding network flow data into graph format
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Processed 30 capture files
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Creating temporal sequences with window size 5
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Created 26 temporal sequences
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Attack sequences: 0
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Normal sequences: 26
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Splitting dataset of 26 sequences
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Dataset split: train=19, validation=2, test=5
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Train set: 0 attack, 19 normal
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Validation set: 0 attack, 2 normal
+2025-04-03 11:52:13,876 - data_preprocessing - INFO - Test set: 0 attack, 5 normal
+2025-04-03 11:52:13,877 - data_preprocessing - INFO - Saved processed dataset to data/processed/processed_dataset_20250403_115213.pkl
